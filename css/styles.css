@@ -70,9 +70,11 @@ button{
     border: none;
 }
 /* Header */
-
+.landing {
+background-color: var(--very-light-gray);
+}
 .landing .image{
-    max-width: 50%;
+    max-width: 60%;
     background-image: url('../images/bg-intro-desktop.svg');
 }
 .landing .image img{
