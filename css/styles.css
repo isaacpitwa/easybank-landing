@@ -1,3 +1,10 @@
 *{
     font-family: 'Public Sans', sans-serif;
 }
+
+.d-flex{
+   
+    display: flex;
+}
+
+/* Header */
