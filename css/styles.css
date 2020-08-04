@@ -69,6 +69,10 @@ section{
 button{
     border: none;
 }
+button:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
 /* Header */
 .landing {
 background-color: var(--very-light-gray);
