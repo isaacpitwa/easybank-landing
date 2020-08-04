@@ -15,6 +15,9 @@ section{
     padding-left: 6%;
     padding-right: 6%;
 }
+.color-darkblue{
+    color: var(--dark-blue-color);
+}
 .color-lightgray{
     color: var(--very-light-gray);
 }
@@ -67,3 +70,11 @@ button{
     border: none;
 }
 /* Header */
+
+.landing .image{
+    max-width: 50%;
+    background-image: url('../images/bg-intro-desktop.svg');
+}
+.landing .image img{
+    /* max-height: 86vh; */
+}
