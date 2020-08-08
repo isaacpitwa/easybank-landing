@@ -110,7 +110,7 @@ padding: 0;
 }
 
 /* Why section */
-section.reasons{
+section.why{
     background-color: var(--light-grayish-blue);
 }
 .reasons{
@@ -120,4 +120,9 @@ section.reasons{
 }
 .reason {
     padding-right: 4%;
+}
+
+/* blog secttion */
+section.blog{
+    background-color: var(--white);
 }
