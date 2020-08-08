@@ -110,9 +110,13 @@ padding: 0;
 }
 
 /* Why section */
+section.reasons{
+    background-color: var(--light-grayish-blue);
+}
 .reasons{
     padding-top: 2% ;
     padding-bottom: 2% ;
+   
 }
 .reason {
     padding-right: 4%;
