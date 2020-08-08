@@ -40,8 +40,8 @@ section{
     align-items: center;
 }
 
-.s-18{
-    font-size: 18px;
+.s-14{
+    font-size: 14px;
 }
 .s-18{
     font-size: 18px;
@@ -107,6 +107,9 @@ padding: 0;
 .landing .image img{
    /* height: 100vh; */
    width: 100%;
+}
+.lighter-font{
+    font-weight: 300;
 }
 .light-font{
     font-weight: 400;
