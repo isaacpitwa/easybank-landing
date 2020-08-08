@@ -43,9 +43,18 @@ section{
 .s-18{
     font-size: 18px;
 }
+.s-48{
+    font-size: 3.6rem;
+}
 .btn-round{
     border-radius: 48px;
 }
+.space-x{
+height: 1rem;
+}
+.space-2x{
+    height: 2rem;
+    }
 .bg-gradient{
     background-image: linear-gradient(to  right, var(--lime-green), var(--bright-cyan));
 }
@@ -76,11 +85,20 @@ button:hover{
 /* Header */
 .landing {
 background-color: var(--very-light-gray);
+padding: 0;
+}
+.landing .content{
+    padding: 8% 6% ;
+    max-width: 40%;
 }
 .landing .image{
     max-width: 60%;
     background-image: url('../images/bg-intro-desktop.svg');
 }
 .landing .image img{
-    /* max-height: 86vh; */
+   /* height: 100vh; */
+   width: 100%;
+}
+.light-font{
+    font-weight: 400;
 }
