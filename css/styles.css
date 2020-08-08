@@ -70,6 +70,10 @@ height: 1rem;
 .bg-gradient{
     background-image: linear-gradient(to  right, var(--lime-green), var(--bright-cyan));
 }
+.header nav{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
 .header nav ul{
     list-style: none;
 }
