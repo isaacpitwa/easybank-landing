@@ -156,7 +156,7 @@ section.footer{
 background-color: var(--dark-blue-color);
 padding: 2% 6%;
 }
-footer{
+footer,footer div.content{
     justify-content: space-between;
 
 }
@@ -174,4 +174,7 @@ footer ul li {
 footer .link-item a{
     text-decoration: none;
     color: var(--grayish-blue);
+}
+.last-col {
+    text-align: right;
 }
