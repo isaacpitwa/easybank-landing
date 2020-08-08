@@ -152,3 +152,22 @@ section.blog{
 }
 
 /* footer Styles */
+section.footer{
+background-color: var(--dark-blue-color);
+padding: 2% 6%;
+}
+footer{
+    justify-content: space-between;
+
+}
+footer .col-one{
+    flex-direction: column;
+    justify-content: space-between;
+}
+footer ul{
+    list-style: none;
+    padding:0 ;
+}
+footer ul li {
+    padding-right: 15px;
+}
