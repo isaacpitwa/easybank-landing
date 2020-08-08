@@ -131,7 +131,8 @@ section.blog{
 }
 .article{
     background-color: var(--white);
-    max-width: 20%;
+    max-width: 24%;
+    margin-right: 3%;
 }
 .article-thumb img{
     border-top-left-radius: 4px;
