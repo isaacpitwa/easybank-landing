@@ -182,3 +182,8 @@ footer .link-item a{
 .last-col {
     text-align: right;
 }
+
+
+@media screen and (max-width: 600px) {{
+    
+}
