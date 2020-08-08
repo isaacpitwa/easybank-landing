@@ -52,6 +52,9 @@ section{
 .s-48{
     font-size: 3.6rem;
 }
+.b-radius-4px{
+    border-radius: 4px;
+}
 .btn-round{
     border-radius: 48px;
 }
@@ -124,5 +127,13 @@ section.why{
 
 /* blog secttion */
 section.blog{
+    background-color: var(--very-light-gray);
+}
+.article{
     background-color: var(--white);
+   
+}
+.article-thumb img{
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
 }
