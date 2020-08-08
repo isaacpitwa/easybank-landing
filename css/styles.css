@@ -11,6 +11,9 @@
 *{
     font-family: 'Public Sans', sans-serif;
 }
+body{
+    margin: 0;
+}
 section{
     padding-left: 6%;
     padding-right: 6%;
