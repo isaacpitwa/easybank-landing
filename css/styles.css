@@ -224,7 +224,7 @@ height: 32px;
         min-width: 100%;
         top: 45px;
         text-align: center;
-        padding: 3%;
+        padding: 8% 0;
       }
     .responsive .opened#toggleBtn{
         background-image: url('/images/icon-close.svg');
@@ -235,7 +235,7 @@ height: 32px;
         padding: 0;
     }
     .header-nav li{
-        margin: 3% auto;
+        margin: 4% auto;
     }
     .header-nav li a{
         color: var(--light-gray);
