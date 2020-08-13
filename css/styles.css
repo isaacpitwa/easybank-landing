@@ -179,6 +179,9 @@ footer .link-item a{
     text-decoration: none;
     color: var(--grayish-blue);
 }
+footer .link-item a:hover{
+    color: var(--lime-green);
+}
 .last-col {
     text-align: right;
 }
