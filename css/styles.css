@@ -258,6 +258,11 @@ height: 32px;
         align-items: center;
         padding-top: 5%;
     }
-    
+    footer .list{
+        text-align: center;
+    }
+    footer .links{
+       margin: 0;
+    }
 
 }
