@@ -195,6 +195,15 @@ footer .link-item a:hover{
 .article-heading:hover h4{
 color: var(--lime-green);
 }
+
+.toggle-btn{
+    /* display: none; */
+}
+#toggleBtn{
+background-image: url('/images/icon-hamburger.svg');
+width: 32px;
+height: 32px;
+}
 @media screen and (max-width: 600px) {
 
 }
