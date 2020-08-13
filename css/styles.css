@@ -248,8 +248,16 @@ height: 32px;
         border: 1px solid var(--light-gray);
     }
 
-    .landing {
+    .landing{
         flex-direction: column-reverse;
-    }    
+    }  
+    .reasons,.articles,footer{
+        flex-direction: column;
+    }  
+    footer{
+        align-items: center;
+        padding-top: 5%;
+    }
+    
 
 }
