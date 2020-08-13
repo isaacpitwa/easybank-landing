@@ -264,5 +264,12 @@ height: 32px;
     footer .links{
        margin: 0;
     }
-
+    .last-col{
+        text-align: center;
+        padding-top: 10%;
+        padding-bottom: 3%;
+    }
+    .last-col div.space-2x{
+        display: none;
+    }
 }
