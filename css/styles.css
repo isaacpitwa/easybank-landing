@@ -205,5 +205,43 @@ width: 32px;
 height: 32px;
 }
 @media screen and (max-width: 600px) {
+    .responsive {position: relative;}
+    .responsive button.toggle-btn {
+        z-index: 1;
+        display: block;
+    }
+    .responsive .collapse-items {
+        display: block;
+        position: absolute;
+        background-color: #f9f9f9;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        min-width: 100%;
+        top: 45px;
+        height: 650px;
+        background: url('/images/bg-pattern-mobile-nav.svg') bottom var(--very-dark-violet);
+        background-repeat: no-repeat;
+      }
+    .responsive .opened#toggleBtn{
+        background-image: url('/images/icon-close.svg');
+    }
+    .header-nav{
+        display: block;
+        text-align: center;
+    }
+    .header-nav li{
+        margin: 18% auto;
+        
+    }
+    .header-nav li a{
+        color: var(--light-gray);
+    }
+    .header-nav li:last-child button{
+        width: 80%;
+        margin: auto;
+        color: var(--light-gray);
+        background-color: transparent;
+        border: 1px solid var(--light-gray);
+    }
 
 }

@@ -28,9 +28,10 @@
 <body>
 
   <section class="header">
-    <nav class="d-flex flex-center">
+    <nav class="d-flex flex-center" id="header">
       <a href="#"><img src="./images/logo.svg" /></a>
-      <ul class="d-flex">
+      <div class="collapse-items" id="collapseNav">
+      <ul class="d-flex header-nav">
         <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
         <li class="nav-item"><a href="#" class="nav-link">About</a></li>
         <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
@@ -38,6 +39,7 @@
         <li class="nav-item"><a href="#" class="nav-link">Careers</a></li>
       </ul>
       <button class="action-btn btn-round bg-gradient color-lightgrayishblue">Request Invite</button>
+      </div>
       <button class="toggle-btn"   onclick="toggleNavMenu()"><div id="toggleBtn" ></div></button>
     </nav>
   </section>
