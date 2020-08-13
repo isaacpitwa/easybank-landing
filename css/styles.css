@@ -203,6 +203,8 @@ color: var(--lime-green);
 }
 #toggleBtn{
 background-image: url('/images/icon-hamburger.svg');
+background-repeat: no-repeat;
+background-position: center;
 width: 32px;
 height: 32px;
 }
@@ -231,6 +233,7 @@ height: 32px;
       }
     .responsive .opened#toggleBtn{
         background-image: url('/images/icon-close.svg');
+
     }
     .header-nav{
         display: block;
