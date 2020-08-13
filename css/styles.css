@@ -88,7 +88,7 @@ height: 1rem;
     border-bottom: 2px solid var(--lime-green);
 }
 .action-btn{
-    padding: 6px 21px;
+    padding: 10px 21px;
     font-size: 16px;
 }
 button{
@@ -97,6 +97,9 @@ button{
 button:hover{
     cursor: pointer;
     opacity: 0.5;
+}
+p{
+    line-height: 1.5;
 }
 /* Header */
 .landing {
@@ -133,6 +136,9 @@ section.why{
 }
 .reason {
     padding-right: 4%;
+}
+.reason:last-child{
+    padding-right: 0;
 }
 
 /* blog secttion */
@@ -267,9 +273,6 @@ height: 28px;
     }
     .landing .content h1{
         font-size: 36px;
-    }
-     p{
-        line-height: 1.5;
     }
     .landing  .image{
         max-width: 100%;
