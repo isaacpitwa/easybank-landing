@@ -234,6 +234,10 @@ height: 32px;
         text-align: center;
         padding: 0;
     }
+    .header nav {
+        padding-top: 4%;
+        padding-bottom: 4%;
+    }
     .header-nav li{
         margin: 4% auto;
     }
@@ -251,9 +255,21 @@ height: 32px;
     .landing{
         flex-direction: column-reverse;
     }  
+    .landing .content{
+        max-width: 100%;
+    }
+    .landing  .image{
+        max-width: 100%;
+    }
     .reasons,.articles,footer{
         flex-direction: column;
     }  
+    section.blog,section.why{
+        text-align: center;
+    }
+    .article{
+        margin-top: 6%;
+    }
     footer{
         align-items: center;
         padding-top: 5%;
