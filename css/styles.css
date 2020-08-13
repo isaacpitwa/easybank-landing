@@ -223,9 +223,8 @@ height: 32px;
         z-index: 1;
         min-width: 100%;
         top: 45px;
-        height: 650px;
-        background: url('/images/bg-pattern-mobile-nav.svg') bottom var(--very-dark-violet);
-        background-repeat: no-repeat;
+        height: 350px;
+        text-align: center;
       }
     .responsive .opened#toggleBtn{
         background-image: url('/images/icon-close.svg');
@@ -235,8 +234,7 @@ height: 32px;
         text-align: center;
     }
     .header-nav li{
-        margin: 18% auto;
-        
+        margin: 8% auto;
     }
     .header-nav li a{
         color: var(--light-gray);
