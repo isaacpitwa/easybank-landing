@@ -223,8 +223,8 @@ height: 32px;
         z-index: 1;
         min-width: 100%;
         top: 45px;
-        height: 350px;
         text-align: center;
+        padding: 3%;
       }
     .responsive .opened#toggleBtn{
         background-image: url('/images/icon-close.svg');
@@ -232,9 +232,10 @@ height: 32px;
     .header-nav{
         display: block;
         text-align: center;
+        padding: 0;
     }
     .header-nav li{
-        margin: 8% auto;
+        margin: 3% auto;
     }
     .header-nav li a{
         color: var(--light-gray);
