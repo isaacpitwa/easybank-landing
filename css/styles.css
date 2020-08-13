@@ -185,6 +185,9 @@ footer .link-item a:hover{
 .last-col {
     text-align: right;
 }
+.social-links li a :hover  {
+    filter: invert(61%) sepia(95%) saturate(358%) hue-rotate(83deg) brightness(92%) contrast(94%);
+}
 
 
 @media screen and (max-width: 600px) {
