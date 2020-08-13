@@ -188,8 +188,13 @@ footer .link-item a:hover{
 .social-links li a :hover  {
     filter: invert(61%) sepia(95%) saturate(358%) hue-rotate(83deg) brightness(92%) contrast(94%);
 }
+.article-heading{
+    text-decoration: none;
+}
 
-
+.article-heading:hover h4{
+color: var(--lime-green);
+}
 @media screen and (max-width: 600px) {
 
 }
