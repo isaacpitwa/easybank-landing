@@ -197,7 +197,7 @@ color: var(--lime-green);
 }
 
 .toggle-btn{
-    /* display: none; */
+    display: none;
 }
 #toggleBtn{
 background-image: url('/images/icon-hamburger.svg');
