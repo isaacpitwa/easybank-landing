@@ -205,8 +205,8 @@ color: var(--lime-green);
 background-image: url('/images/icon-hamburger.svg');
 background-repeat: no-repeat;
 background-position: center;
-width: 32px;
-height: 32px;
+width: 28px;
+height: 28px;
 }
 @media screen and (max-width: 600px) {
     .header .collapse-items {display: none;}
