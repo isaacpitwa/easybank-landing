@@ -205,6 +205,11 @@ width: 32px;
 height: 32px;
 }
 @media screen and (max-width: 600px) {
+    .header .collapse-items {display: none;}
+    button.toggle-btn {
+      float: right;
+      display: block;
+    }
     .responsive {position: relative;}
     .responsive button.toggle-btn {
         z-index: 1;
