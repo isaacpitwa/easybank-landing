@@ -257,14 +257,23 @@ height: 32px;
     }  
     .landing .content{
         max-width: 100%;
+        padding-top: 0;
+    }
+    .landing .content h1{
+        font-size: 36px;
+    }
+     p{
+        line-height: 1.5;
     }
     .landing  .image{
         max-width: 100%;
+        background-image: url('/images/bg-intro-mobile.svg');
+        background-repeat: no-repeat;
     }
     .reasons,.articles,footer{
         flex-direction: column;
     }  
-    section.blog,section.why{
+    section.blog,section.why, .landing .content{
         text-align: center;
     }
     .article{
